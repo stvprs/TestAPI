@@ -1,0 +1,133 @@
+{
+	"id": "a7476544-daae-48a1-b528-a38554b23acf",
+	"name": "Stefanus Prasetyo Wibowo Test",
+	"timestamp": "2023-01-02T08:41:12.087Z",
+	"collection_id": "24644336-64e870df-2d6e-4e54-8af5-ef85b2685690",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "401ab75d-4dab-4e5c-9a7d-e93774139155",
+			"name": "LIST USERS",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b21d71ab-80cb-4c0a-b1b5-54ef74c8a40c",
+			"name": "SINGLE USER",
+			"url": "https://reqres.in/api/users/2",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "08d78443-9d8a-4222-911e-850913cacd6a",
+			"name": "CREATE",
+			"url": "https://reqres.in/api/users",
+			"time": 430,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				430
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a2e0aba7-1c14-4fc4-a4e6-281d3b7b58db",
+			"name": "UPDATE",
+			"url": "https://reqres.in/api/users/12",
+			"time": 445,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				445
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 909,
+	"collection": {
+		"requests": [
+			{
+				"id": "401ab75d-4dab-4e5c-9a7d-e93774139155",
+				"method": "GET"
+			},
+			{
+				"id": "b21d71ab-80cb-4c0a-b1b5-54ef74c8a40c",
+				"method": "GET"
+			},
+			{
+				"id": "08d78443-9d8a-4222-911e-850913cacd6a",
+				"method": "POST"
+			},
+			{
+				"id": "a2e0aba7-1c14-4fc4-a4e6-281d3b7b58db",
+				"method": "PUT"
+			}
+		]
+	}
+}
